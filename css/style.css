@@ -3,7 +3,7 @@ body {
 }
 
 figure {
-    margin: auto;
+    margin-top: 20px;
     font-size: small;
 }
 thead {
@@ -15,25 +15,36 @@ h4{
     color:lightslategray;
 }
 
-header div{
-    color: rgb(159, 166, 173);
-    font-weight: bold;
+span{
+    background-color: yellow;
 }
+
 
 footer p{
     color: white;
     font-weight: bold;
 }
 
-.prime-foto{
-    width: 45%;
+.sottotitolo{
+    color: rgb(159, 166, 173);
+    font-weight: bold;
+}
+
+.prima-foto{
+    width: 425px;
     height: 300px;
     
+}
+.seconda-foto{
+    width: 400px;
+    height: 300px;
 }
 
 .linea-azzurra {
     background-color: lightblue;
 }
+
+
 
 #banner {
     background-image: url(../img/pattern.png);
@@ -45,6 +56,7 @@ footer p{
 
 #logo {
     width: 200px;
+    margin-top: 25px;
 }
 
 #img-1{
