@@ -13,7 +13,21 @@ h4{
     color:lightslategray;
 }
 
+ul{
+    margin-left: -25px;
+}
 
+main,footer{
+    width: 85%;
+    margin-left: 50px;
+}
+
+h1{
+    font-size: 40px;
+}
+table{
+    border-spacing: 0;
+}
 
 footer p{
     color: white;
@@ -63,6 +77,7 @@ footer p{
 #logo {
     width: 200px;
     margin-top: 25px;
+    margin-left: 50px;
 }
 
 #img-1{
@@ -72,4 +87,8 @@ footer p{
 #img-2{
     background-image: url(../img/graph.jpg);
     
+}
+
+.last-column{
+    width: 50%;
 }
